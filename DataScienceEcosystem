@@ -1,0 +1,164 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "2f3ecb6d-fb15-4c5e-b0b1-28f41cc22aff",
+   "metadata": {},
+   "source": [
+    "# Data Science Tools and Ecosystem"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cb0e2740-7647-48d1-baf6-12ce9a8c10f7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## Author\n",
+    "\n",
+    "Leo Nakaya"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de9ece18-5fe5-495d-bb40-08e741f3cd46",
+   "metadata": {},
+   "source": [
+    "In this notebook, Data Science Tools and Ecosystem are summarized."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a1abbfc-8a90-4c52-8a0d-862946dc6701",
+   "metadata": {},
+   "source": [
+    "__Objectives:__\n",
+    "\n",
+    "* Identify Data Scientist languages.\n",
+    "* Identify Data Scientist libraries.\n",
+    "* Identify Data Scientist tools.\n",
+    "* Practice arithmetic expressions."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "30768814-b3dd-4db7-a443-b6d90ab5689d",
+   "metadata": {},
+   "source": [
+    "Some of the popular languages that Data Scientists use are:\n",
+    "\n",
+    "1. R\n",
+    "2. Python\n",
+    "3. Julia\n",
+    "4. Java"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "13476ccc-dc22-4c65-86e3-58f2d1911bda",
+   "metadata": {},
+   "source": [
+    "Some of the commonly used libraries used by Data Scientists include:\n",
+    "\n",
+    "1. NumPy\n",
+    "2. SciPy\n",
+    "3. Pandas\n",
+    "4. Matplotlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f5d0df64-e9cd-4c79-8077-5215d22040de",
+   "metadata": {},
+   "source": [
+    "| Data Science Tools |\n",
+    "| --- |\n",
+    "| Weka |\n",
+    "| Apache Spark |\n",
+    "| Matplotlib |"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "608b4951-29e8-4d55-95c1-a9350243c4e2",
+   "metadata": {},
+   "source": [
+    "### Below are a few examples of evaluating arithmetic expressions in Python."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "7651b0ef-fb1c-49a8-9a70-b56a47601bf8",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(3*4)+5\n",
+    "\n",
+    "#This a simple arithmetic expression to mutiply then add integers."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "89da190a-6332-459f-adef-6d6fa4ab9e65",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The conversion of minutes into hours is 3.3333333333333335 hours\n"
+     ]
+    }
+   ],
+   "source": [
+    "#his will convert 200 minutes to hours by diving by 60.\n",
+    "\n",
+    "minutes = 200\n",
+    "hours = 60\n",
+    "\n",
+    "converter = (minutes/hours)\n",
+    "\n",
+    "print ('The conversion of minutes into hours is', converter, 'hours')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python",
+   "language": "python",
+   "name": "conda-env-python-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
